@@ -108,16 +108,27 @@
 /* ESERCIZIO 10 COMPLETATO */
 .ex-10-icon {
     font-size: 60px;
-    animation: spin 1s linear infinite;
+    animation: spin 1s linear;
 }
 @keyframes spin {
     100% {transform: rotate(-360deg);} 
 }
 
-
+/* ESERCIZIO 11 COMPLETATO */
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    font-size: 60px;
+    animation: spin 2s linear;
+}
+@keyframes spin {
+    90% {transform: rotate(315deg);} 
+    100% {transform: rotate(0deg);}
+}
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
